@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #5f5d5d;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #5f5d5d;
+    
+  }
+  
+  .matrix-con {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 15px;
+  }
+  
+  .matrix-sec {
+    border: 1px solid #5f5d5d;
+    padding: 10px;
+    /* flex: 1; */
+    overflow-x: auto;
+    text-align: center;
+    background-color: #d8cfcf;
+    margin:60px
+  }
+  
+  .matrix-sec h2 {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  
+  input[type="number"], button {
+    margin: 9px;
+    padding: 11px 18px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  input[type="number"] {
+    width: 90px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #83bdec;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6d5fe9;
+  }
+  
+  .result-sec {
+    margin-top: 18px;
+    text-align: left;
+  }
+  
+  button:disabled {
+    background-color: #e7e5e5;
+    cursor: not-allowed;
+  }
+  
+  .matrix-sec table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 9px;
+  }
+  
+  .matrix-sec td, .matrix-sec th {
+    border: 1px solid #fae7e7;
+    padding: 7px;
+    text-align: center;
+  }
+  
+  .matrix-sec input {
+    width: 45px;
+    text-align: center;
+    padding: 4px;
+  }
+   

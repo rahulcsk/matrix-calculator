@@ -1,0 +1,31 @@
+.result-table-container {
+    display: flex;
+    justify-content: center;   
+    align-items: center;      
+    height: 100vh;             
+    background-color: #ffffff; 
+    padding: 19px;            
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; 
+    background-color: #f5eded; 
+  }
+  
+  .matrix-input {
+    width: 45px;
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+    border: 1px solid #ddd;
+    background-color: #fceded;
+  }
+  
+  .matrix-input:focus {
+    outline: none;
+    border-color: #97c9ff;
+  }
+  
